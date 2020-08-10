@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "preserveSymlinks": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "strict": true,
+    "allowJs": false,
+    "checkJs": false,
+    "module": "esNext",
+    "noEmit": false,
+    "pretty": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["dist"]
+}

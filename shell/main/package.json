@@ -1,0 +1,12 @@
+{
+  "name": "@dealer-central/main-shell",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@dealer-central/inventory-app": "^1.0.0",
+    "@dealer-central/dealership-contract": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}

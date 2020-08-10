@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "apps/inventory/features/promotions"
+    },
+    {
+      "path": "apps/inventory/main"
+    },
+    {
+      "path": "shell/main"
+    },
+    {
+      "path": "shared/contracts/dealerships"
+    }
+  ]
+}
+  

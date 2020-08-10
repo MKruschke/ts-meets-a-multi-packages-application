@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "references": [
+    {
+      "path": "../../apps/inventory/main"
+    },
+    {
+      "path": "../../shared/contracts/dealerships"
+    }
+  ]
+}
+  
