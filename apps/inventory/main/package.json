@@ -7,6 +7,6 @@
     "@dealer-central/dealership-contract": "^1.0.0"
   },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1 || ^17.0.0"
   }
 }

@@ -4,6 +4,6 @@
   "main": "src/index.ts",
   "dependendcies": {},
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1 || ^17.0.0"
   }
 }
