@@ -249,6 +249,11 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
+
 array-find-index@^1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/array-find-index/-/array-find-index-1.0.2.tgz#df010aa1287e164bbda6f9723b0a96a1ec4187a1"
@@ -982,6 +987,13 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
+js-yaml@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  dependencies:
+    argparse "^2.0.1"
+
 json-parse-better-errors@^1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -1658,13 +1670,15 @@ universalify@^1.0.0:
   resolved "https://registry.npmjs.org/universalify/-/universalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
   integrity sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
 
-update-ts-references@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/update-ts-references/-/update-ts-references-2.0.0.tgz#8c26aae69fd90ca88846491f1fa6ff71bcd2f039"
-  integrity sha512-+SYNcHm3anZBnvzZ6f8Xm61cnSwOlT/3uc0ehFQIruRS3EkF2aObNCcK7VRqYOWJ0MlHhcU2qQ9SNu8pmoEMvw==
+update-ts-references@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/update-ts-references/-/update-ts-references-2.3.0.tgz#079ec848342be6cbb2a61a8ab5dbb3cc34d14f19"
+  integrity sha512-r3FM7oaZaW31qr1Zr5div3u1zheSPP0/CQXozZc34SMQpiSEDjdtboUt/XunOnWVhzynDS1TbhKHA/6oHStAsw==
   dependencies:
     "@formatjs/cli" "^2.3.1"
     glob "^7.1.6"
+    js-yaml "^4.0.0"
+    minimatch "^3.0.4"
     minimist "^1.2.5"
     mkdirp "^1.0.4"
     readline-sync "^1.4.10"
