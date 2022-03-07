@@ -22,7 +22,7 @@
     "eslint-plugin-monorepo": "0.2.1",
     "eslint-plugin-react": "7.20.6",
     "react": "17.0.1",
-    "typescript": "3.9.7",
+    "typescript": "3.9.10",
     "update-ts-references": "2.0.0"
   }
 }
