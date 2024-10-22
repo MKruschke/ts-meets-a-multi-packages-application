@@ -20,7 +20,7 @@
     "eslint": "7.7.0",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-monorepo": "0.2.1",
-    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react": "7.37.2",
     "react": "17.0.1",
     "typescript": "3.9.7",
     "update-ts-references": "2.0.0"
